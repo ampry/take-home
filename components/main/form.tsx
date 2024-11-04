@@ -34,10 +34,8 @@ export function InputForm() {
     toast(
       <div>
         <div>You submitted the following values:</div>
-        <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
-          <code className="text-background">
-            {JSON.stringify(data, null, 2)}
-          </code>
+        <pre className="mt-2 w-full rounded-md p-2 bg-foreground text-background">
+          {JSON.stringify(data, null, 2)}
         </pre>
       </div>
     );
@@ -45,7 +43,7 @@ export function InputForm() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="w-2/3 space-y-6">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
         <FormField
           control={form.control}
           name="name"
