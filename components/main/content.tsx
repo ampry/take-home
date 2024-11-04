@@ -7,6 +7,10 @@ export const Content = () => {
       <Container>
         <h1>Ampry</h1>
         <h2>Take Home Test</h2>
+        <p className="p-2 border rounded-md bg-accent/30 mb-12">
+          <Link href="/form">Visit the form page to get started</Link>
+        </p>
+
         <p>This project uses:</p>
         <ul>
           <li>

@@ -6,10 +6,10 @@ export default function Page() {
     <Section>
       <Container>
         {/* Header */}
-        <div className="text-center max-w-md mx-auto">
-          <h1>Wow! a form.</h1>
+        <div className="text-center max-w-md mx-auto mb-8 flex flex-col gap-2">
+          <h1 className="text-xl font-medium">Submit your information!</h1>
           <h3 className="text-muted-foreground my-0">
-            Submit the form to see the what happens.
+            Please fill out the form below to submit your information.
           </h3>
         </div>
         {/* Form */}
