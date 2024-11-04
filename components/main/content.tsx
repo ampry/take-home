@@ -1,4 +1,4 @@
-import { Section, Container, Box } from "@/components/craft";
+import { Section, Container } from "@/components/craft";
 import Link from "next/link";
 
 export const Content = () => {
@@ -51,7 +51,9 @@ export const Content = () => {
             </p>
           </li>
           <li>
-            <Link href="https://github.com/brijr/craft">CraftUI</Link>
+            <Link href="https://github.com/brijr/craft">
+              Craft Design System
+            </Link>
             <p className="text-sm text-muted-foreground">
               An open-source design system built internally by Bridger Tower.
             </p>
