@@ -6,14 +6,14 @@ export default function Page() {
     <Section>
       <Container>
         {/* Header */}
-        <div className="text-center max-w-md mx-auto mb-8 flex flex-col gap-2">
-          <h1 className="text-xl font-medium">Submit your information!</h1>
-          <h3 className="text-muted-foreground my-0">
+        <div className="">
+          <h1 className="">Submit your information!</h1>
+          <h3 className="">
             Please fill out the form below to submit your information.
           </h3>
         </div>
         {/* Form */}
-        <div className="mt-4 p-6 border rounded-lg bg-accent/30 max-w-md mx-auto">
+        <div className="">
           <InputForm />
         </div>
       </Container>
